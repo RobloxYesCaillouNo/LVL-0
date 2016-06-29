@@ -5,7 +5,6 @@ import java.util.Random;
 
 import javax.swing.JApplet;
 import javax.swing.JOptionPane;
-
 public class SafeCracker {
 
 	public static void main(String[] args) {
@@ -15,7 +14,7 @@ public class SafeCracker {
 			
 		}
 		
-	}
+	} 
 
 	static void tryCode(int guess) {
 		System.out.println("trying " + guess);
