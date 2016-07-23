@@ -1,9 +1,10 @@
 void setup(){
+   playSound();
   size(800,800);
 }int x=50;
 void draw(){
 x++;
- playSound();
+
   background(0,0,180);
   fill(212,130,121);
  triangle(200,450-x,400,150-x,600,450-x);   
