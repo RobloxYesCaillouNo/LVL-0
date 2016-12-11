@@ -23,7 +23,7 @@ public class SecretMessageBox {
 	String guest = JOptionPane.showInputDialog("passcode please");
 	// 4. If the passcode matches, show the secret message
 	if (guest.equals("78324") ) {
-	JOptionPane.showMessageDialog(null, poop);	
+	JOptionPane.showMessageDialog(null, "(╯°□°）╯︵ ┻━┻");	
 	}
 	// 5. If the passcode does not match, pop-up "INTRUDER!!"
 	else {
