@@ -27,9 +27,7 @@ public class Code4life {
 	 * 
 	 * 3. If it's more than 5, play the Batman theme song.
 	 */
-	
-	
-	
+
 	private static void playBatmanTheme() {
 		try {
 			AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("/Users/League/Google Drive/league-sounds/batman.wav"));
